@@ -1,9 +1,16 @@
 :root {
-    --color-primary: rgba(34,110,147,1);
-    --color-primary-light: rgba(34,110,147,0.1);
-    --color-accent: #f48c06;
-    --color-bg: #f9f9f9;
-    --color-text: #333333;
+    --color-primary: #1e6c93;
+    --color-primary-light: rgba(30,108,147,0.1);
+    --color-accent: #336699;
+    --color-bg: #f2f2f2;
+    --color-text: #212121;
+  }
+
+[data-theme="dark"] {
+    --color-primary: #f2f2f2;
+    --color-primary-light: rgba(242,242,242,0.1);
+    --color-bg: #212121;
+    --color-text: #f2f2f2;
   }
   
   *, *::before, *::after {
@@ -17,6 +24,7 @@
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   header {
@@ -37,7 +45,7 @@
   }
   
   nav a {
-    color: #ffffff;
+    color: var(--color-bg);
     text-decoration: none;
     margin: 0 0.5rem;
     padding: 0.5rem;
@@ -53,9 +61,18 @@
     display: none;
     background: none;
     border: none;
-    color: #ffffff;
+    color: var(--color-bg);
     font-size: 1.8rem;
     cursor: pointer;
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    color: var(--color-bg);
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
   }
   
   @media (max-width: 600px) {
