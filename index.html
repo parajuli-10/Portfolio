@@ -10,8 +10,13 @@
 </head>
 <body>
   <header>
-    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-    <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+    <!-- Navigation toggle (for mobile) -->
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+    <!-- Dark‐mode toggle -->
+    <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+    <!-- Main navigation links -->
     <nav>
       <a href="about.html">About</a>
       <a href="projects.html">Projects</a>
@@ -20,16 +25,73 @@
     </nav>
   </header>
 
+  <!-- Hero section -->
   <section id="hero">
     <h1>Hi, I'm Kailash</h1>
     <p>Web developer building things on the internet.</p>
   </section>
 
+  <!-- About Me section -->
   <section id="about">
     <h2>About Me</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod magna in urna mattis, non tincidunt.</p>
   </section>
 
+  <!-- Projects section (pulled from the “main” branch) -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>Project One</h3>
+        <p>A short description of the project goes here.</p>
+        <a href="#">View details</a>
+      </div>
+      <div class="project-item">
+        <h3>Project Two</h3>
+        <p>Another brief description for a different project.</p>
+        <a href="#">View details</a>
+      </div>
+      <div class="project-item">
+        <h3>Project Three</h3>
+        <p>More filler text about this awesome project.</p>
+        <a href="#">View details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section (pulled from the “main” branch) -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+
+  <!-- Contact section (pulled from the “main” branch) -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label>
+        Name
+        <input type="text" placeholder="Your name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" placeholder="you@example.com" required>
+      </label>
+      <label>
+        Message
+        <textarea rows="4" placeholder="Say hello..." required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
     © 2024 Kailash Parajuli
   </footer>
