@@ -78,10 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
+
     // Update footer year dynamically
     const yearEl = document.getElementById('year');
     if (yearEl) {
       yearEl.textContent = new Date().getFullYear();
     }
+
   });
 

@@ -1,16 +1,29 @@
 :root {
+
     --color-primary: #0d0d0d;
     --color-primary-light: rgba(13,13,13,0.1);
     --color-accent: #336699;
+
+
+    --color-primary: #0d0d0d;
+    --color-primary-light: rgba(13, 13, 13, 0.1);
+    --color-accent: #f48c06;
+
     --color-bg: #e1eff3;
     --color-text: #0d0d0d;
   }
 
 [data-theme="dark"] {
-    --color-primary: #e1eff3;
+
     --color-primary-light: rgba(225,239,243,0.1);
     --color-bg: #0d0d0d;
     --color-text: #e1eff3;
+=======
+    --color-primary-light: rgba(225, 239, 243, 0.1);
+    --color-bg: #0d0d0d;
+    --color-text: #e1eff3;
+
+
   }
   
   *, *::before, *::after {
