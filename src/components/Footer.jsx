@@ -8,7 +8,8 @@ function Footer() {
       <div className="social">
         {/* Social media links */}
         <a href="https://github.com/parajuli-10" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/kailash-parajuli/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/kailash-parajuli-6402201a9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:mail@kailashparajuli.com.np">Email</a>      
       </div>
     </footer>
   );
