@@ -6,7 +6,7 @@ function Home() {
     <section id="hero" className="fade-in">
       {/* Hero section with introduction */}
       <img 
-        src="https://via.placeholder.com/180" 
+        src="WeddingDiaryAustralia_-1023.jpeg" 
         alt="Kailash Parajuli" 
         className="profile-photo" 
       />
