@@ -151,34 +151,47 @@
   /* Hero section */
   #hero {
     text-align: center;
-    padding: 6rem 1rem;
-    /* Hero section uses full width (overrides max-width) */
-    width: 100%;
-    max-width: none;
+    padding: 2rem;
   }
-  #hero .profile-photo {
-    width: 180px;
-    height: 180px;
+  
+  .profile-photo {
     border-radius: 50%;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
-  #hero h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: var(--text-color);
+  
+  .hero-summary {
+    max-width: 800px;
+    margin: 1rem auto 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 1rem;
   }
-  #hero p {
-    font-size: 1.2rem;
-    color: var(--text-color);
-  }
+  
   .cta {
-    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
-  .cta .btn {
-    margin: 0 0.5rem 0.5rem 0;
+  
+  .btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #2a6cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
   }
+  
+  .btn:hover {
+    background-color: #1741c9;
+  }
+  
   
   /* Section styling (About, Projects, Contact) */
   section {
