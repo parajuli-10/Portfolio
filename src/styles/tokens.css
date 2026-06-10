@@ -59,3 +59,19 @@
   --z-modal: 1050;
   --z-popover: 1100;
 }
+
+/* ─── Light mode overrides ─── */
+[data-theme="light"] {
+  --bg-primary:   #f4f5f7;
+  --bg-secondary: #ffffff;
+  --bg-tertiary:  #e8eaed;
+  --bg-overlay:   rgba(244, 245, 247, 0.92);
+
+  --text-primary:   #111111;
+  --text-secondary: #333333;
+  --text-tertiary:  #666666;
+  --text-muted:     #aaaaaa;
+
+  --border-color: rgba(0, 0, 0, 0.10);
+  --border-light: rgba(0, 0, 0, 0.05);
+}
