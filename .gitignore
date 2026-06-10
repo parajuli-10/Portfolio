@@ -1,1 +1,16 @@
+# Dependencies
 node_modules/
+
+# Build output (synced to root by sync-build-to-root.mjs)
+build/
+dist/
+
+# Editor / OS noise
+.DS_Store
+*.local
+.vscode/
+.idea/
+
+# Bundle and patch files
+*.bundle
+*.patch
